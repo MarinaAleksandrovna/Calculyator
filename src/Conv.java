@@ -7,7 +7,7 @@ public class  Conv  {
 	    public static void main(String[] args) {
 	    	char [] mas_zn={'*','/','+','-'};
 	    	Scanner sc = new Scanner(System.in);
-			System.out.println("Vvedite primer: ");
+			System.out.print("Vvedite primer: ");
 			String roman_numeral_input = sc.nextLine();
 			int num_zn=0; char zn;int i=0;
 			 try {
