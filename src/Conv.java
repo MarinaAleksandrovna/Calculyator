@@ -7,7 +7,7 @@ public class  Conv  {
 	    public static void main(String[] args) {
 	    	char [] mas_zn={'*','/','+','-'};
 	    	Scanner sc = new Scanner(System.in);
-			System.out.println("Введите пример: ");
+			System.out.println("Vvedite primer: ");
 			String roman_numeral_input = sc.nextLine();
 			int num_zn=0; char zn;int i=0;
 			 try {
@@ -31,12 +31,12 @@ public class  Conv  {
 			{
 				int ar_ch1=Integer.parseInt(ch1); 
 				int ar_ch2=Integer.parseInt(ch2);int res=Chysla.Deystve(zn,ar_ch1,ar_ch2);System.out.println(res);}
-			else {System.out.println("Некорректный ввод");
+			else {System.out.println("Ne korrektniy vvod");
 			}
 		
 		
 			}catch (Exception e) {
-				System.out.println("Некорректный ввод");}
+				System.out.println("Ne korrektniy vvod");}
 	    
 	    }
 }
