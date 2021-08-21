@@ -21,7 +21,7 @@ public class Roman_chysla extends Chysla {
 
 }
 	
-	public static String Natur_v_Rom(int nat) { String rez="Среди римских чисел нет отрицательных";
+	public static String Natur_v_Rom(int nat) { String rez="Sredy rymskih chysel net otricatelnyh";
 	 Map<Integer,String> roman_ch = new HashMap<Integer,String>(); 
     
     roman_ch.put(1,"I" );
@@ -55,7 +55,7 @@ public class Roman_chysla extends Chysla {
 		case '/': rez=chys1.znach/chys2.znach; break;
 		case '+': rez=chys1.znach+chys2.znach; break;
 		case '-': rez=chys1.znach-chys2.znach; break;
-		default: System.out.println("Не корректное действие");
+		default: System.out.println("Ne korrektniy vvod");
 		}
 		 return rez;
 	 }
