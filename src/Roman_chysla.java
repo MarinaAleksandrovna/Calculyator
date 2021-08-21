@@ -55,7 +55,7 @@ public class Roman_chysla extends Chysla {
 		case '/': rez=chys1.znach/chys2.znach; break;
 		case '+': rez=chys1.znach+chys2.znach; break;
 		case '-': rez=chys1.znach-chys2.znach; break;
-		default: System.out.println("Ne korrektniy vvod");
+		default: System.out.println("Nekorrektniy vvod");
 		}
 		 return rez;
 	 }
