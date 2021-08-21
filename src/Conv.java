@@ -31,12 +31,12 @@ public class  Conv  {
 			{
 				int ar_ch1=Integer.parseInt(ch1); 
 				int ar_ch2=Integer.parseInt(ch2);int res=Chysla.Deystve(zn,ar_ch1,ar_ch2);System.out.println(res);}
-			else {System.out.println("Ne korrektniy vvod");
+			else {System.out.println("Nekorrektniy vvod");
 			}
 		
 		
 			}catch (Exception e) {
-				System.out.println("Ne korrektniy vvod");}
+				System.out.println("Nekorrektniy vvod");}
 	    
 	    }
 }
