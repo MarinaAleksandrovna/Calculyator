@@ -8,7 +8,7 @@ public class Chysla {
 			case '/': rez=chys1/chys2; break;
 			case '+': rez=chys1+chys2; break;
 			case '-': rez=chys1-chys2; break;
-			default: System.out.println("Ne korrektniy vvod");
+			default: System.out.println("Nekorrektniy vvod");
 			}
 			 return rez;
 		 }
